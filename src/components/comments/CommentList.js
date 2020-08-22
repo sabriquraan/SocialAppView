@@ -26,7 +26,7 @@ class CommentList extends React.Component {
         />
       );
     });
-    return <div className="ui minimal comments">{comments}</div>;
+    return <div className="ui fluid card">{comments}</div>;
   }
 }
 

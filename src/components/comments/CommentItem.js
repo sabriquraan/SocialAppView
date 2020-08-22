@@ -7,7 +7,9 @@ class CommentItem extends React.Component {
       <div className="ui segment">
         <div className="comment">
           <div className="content">
-            <h2 className="ui left floated header">{email}</h2>
+            <h2 className="ui left  fluid top attached block  header">
+              {email}
+            </h2>
             <div className="ui clearing divider"></div>
             <div className="metadata">
               <span className="date">{this.props.timeAgo}</span>
